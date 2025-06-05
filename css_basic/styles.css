@@ -18,3 +18,27 @@ aside{
     flex: 1;
     overflow-y: auto;
 }
+
+article {
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+p {
+  color: #333;
+  line-height: 1.6;
+}
+
+h1 {
+  color: #007bff;
+}
+
+
+
+
+header li.logo {
+  font-size: 40px !important;
+  margin-right: 20px !important;
+  color: blue;
+}
