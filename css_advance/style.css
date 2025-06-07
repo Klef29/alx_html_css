@@ -1,27 +1,27 @@
 /* Reset and Base */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Segoe UI', sans-serif;
-    color: #a84c4c;
+  font-family: 'Segoe UI', sans-serif;
+  color: #a84c4c;
 }
 
 /* Hero Section */
 .hero {
-    background: linear-gradient(to top, #061223, rgba(35, 34, 34, 0.3)),
-        url('./Assests/Object.png') no-repeat center/cover;
-    height: 100vh;
-    position: relative;
-    color: #fff;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 20px;
+  background: linear-gradient(to top, #061223, rgba(35, 34, 34, 0.3)),
+    url('./Assests/Object.png') no-repeat center/cover;
+  height: 100vh;
+  position: relative;
+  color: #fff;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 /* Header */
@@ -29,12 +29,13 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 80px; /* controls spacing from both sides */
+  padding: 0 80px;
+  /* controls spacing from both sides */
 }
 
 
 .logo img {
-    margin-left: 40px;
+  margin-left: 40px;
 }
 
 .nav-links a {
@@ -47,87 +48,86 @@ body {
 
 /* Hero Content */
 .hero-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin-top: 75px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 75px;
 }
 
 .hero-content h1 {
-    font-size: 60px;
-    margin-bottom: 20px;
-    font-family: "Source Code Pro", monospace;
+  font-size: 60px;
+  margin-bottom: 10px;
+  font-family: "Source Code Pro", monospace;
 }
 
 .hero-tags span {
-    margin: 0 10px;
-    font-weight: bold;
-    font-size: 14px;
-    font-family: "Source Code Pro", monospace;
+  margin: 0 10px;
+  font-weight: bold;
+  font-size: 14px;
+  font-family: "Source Code Pro", monospace;
 }
 
 .register-btn {
-    background-color: #C271FF;
-    color: #fff;
-    padding: 8px 20px;
-    font-size: 14px;
-    border: none;
-    border-radius: 25px;
-    font-weight: bold;
-    cursor: pointer;
-    margin: 20px auto;
-    display: block;
-    width: fit-content;
+  background-color: #C271FF;
+  color: #fff;
+  padding: 8px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  width: fit-content;
 }
 
 /* Testimonials */
 .testimonials {
-    text-align: center;
-    padding: 50px 20px;
-    justify-content: space-between;
+  text-align: center;
+  padding: 50px 20px;
+  justify-content: space-between;
 }
 
 .testimonials h2 {
-    font-size: 20px;
-    margin-bottom: 40px;
-    font-weight: lighter;
+  font-size: 20px;
+  margin-bottom: 40px;
+  font-weight: lighter;
 }
 
 .testimonials .purple {
-    color: #C271FF;
-    font-weight: bold;
+  color: #C271FF;
+  font-weight: bold;
 }
 
 .profiles {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 110px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 110px;
 }
 
 .profile {
-    max-width: 200px;
-    text-align: center;
+  max-width: 200px;
+  text-align: center;
 }
 
 .profile img {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    object-fit: cover;
-    margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 10px;
 }
 
 .profile h3 {
-    font-size: 16px;
-    margin: 10px 0 5px;
+  font-size: 16px;
+  margin: 10px 0 5px;
 }
 
 .profile p {
-    font-size: 14px;
-    color: #ccc;
-    line-height: 1.4;
+  font-size: 14px;
+  color: #ccc;
+  line-height: 1.4;
 }
 
 .presenter {
@@ -136,8 +136,8 @@ body {
   padding: 80px;
   display: flex;
   justify-content: center;
-  align-items: center; 
-  gap: 30px;     
+  align-items: center;
+  gap: 30px;
   text-align: left;
 }
 
@@ -186,19 +186,20 @@ body {
 }
 
 .tutorials-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 50px;
-    max-width: 1300px;
-    margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 50px;
+  max-width: 1300px;
+  margin: 0 auto;
 }
 
 .tutorials-card {
-    width: 260px; /* or adjust to fit 4 in a row */
-    background-color: white;
-    padding: 1px;
-    text-align: center;
+  width: 260px;
+  /* or adjust to fit 4 in a row */
+  background-color: white;
+  padding: 1px;
+  text-align: center;
 }
 
 
@@ -238,8 +239,8 @@ body {
   margin-left: 10px;
 }
 
-.author h4{
-    color: #C271FF;
+.author h4 {
+  color: #C271FF;
 }
 
 .stars i {
@@ -256,7 +257,8 @@ body {
 
 .stars {
   display: flex;
-  gap: 7px; /* spacing between stars */
+  gap: 7px;
+  /* spacing between stars */
   margin-left: 8px;
 }
 
@@ -265,8 +267,8 @@ body {
   margin-right: 9px;
 }
 
-.rating p{
-    color: #C271FF;
+.rating p {
+  color: #C271FF;
 }
 
 .tutorial-image {
@@ -285,7 +287,148 @@ body {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 50px; /* or any size you prefer */
+  width: 50px;
+  /* or any size you prefer */
   height: 50px;
-  pointer-events: none; /* so it doesn't block clicks if needed */
+  pointer-events: none;
+  /* so it doesn't block clicks if needed */
+}
+
+
+.membership {
+  background-color: #071629;
+  color: #fff;
+  padding: 55px;
+}
+
+.membership h2 {
+  text-align: center;
+  padding: 25px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.membership h2 .purple {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.member-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  /* Allows it to wrap on smaller screens */
+  padding: 30px 0;
+}
+
+.member {
+  max-width: 200px;
+  text-align: center;
+}
+
+.member img {
+  width: 80px;
+  margin-bottom: 10px;
+}
+
+.member h3 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.member p {
+  font-size: 14px;
+  color: #ccc;
+}
+
+.register-btn-mem {
+  background-color: #C271FF;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 14px;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  margin: 20px auto;
+  display: block;
+  width: fit-content;
+  margin-top: 40px;
+}
+
+.faq {
+  background-color: #fff;
+  color: #000;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.faq h2 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+  font-weight: lighter;
+  font-family: "Source Code Pro", monospace;
+}
+
+.faq-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 200px;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.faq-wrapper>div {
+  flex: 1;
+  max-width: 500px;
+}
+
+.faq-wrapper h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #071629;
+}
+
+.faq-wrapper p,
+.faq-wrapper div div:not(:first-child) {
+  font-size: 14px;
+  color: #071629;
+  margin-bottom: 30px;
+  line-height: 1.6;
+}
+
+.foot {
+  background-color: #071629;
+  color: #fff;
+  padding: 60px 140px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* for small screens */
+}
+
+.footer-left img {
+  max-width: 120px;
+}
+
+.footer-center {
+  text-align: center;
+  flex: 1;
+  margin-top: 80px;
+}
+
+.footer-center p {
+  margin: 0;
+  font-size: 14px;
+  color: #535252;
+}
+
+.footer-right i {
+  color: #fff;
+  font-size: 20px;
+  margin-left: 20px;
 }
