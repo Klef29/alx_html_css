@@ -1,0 +1,168 @@
+/* Reset and Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #fff;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to top, #061223, rgba(35, 34, 34, 0.3)),
+        url('./Assests/Object.png') no-repeat center/cover;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+/* Header */
+.hero-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 80px; /* controls spacing from both sides */
+}
+
+
+.logo img {
+    margin-left: 40px;
+}
+
+.nav-links a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+/* Hero Content */
+.hero-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 75px;
+}
+
+.hero-content h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.hero-tags span {
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Source Code Pro", monospace;
+}
+
+.register-btn {
+    background-color: #C271FF;
+    color: #fff;
+    padding: 8px 20px;
+    font-size: 14px;
+    border: none;
+    border-radius: 25px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+}
+
+/* Testimonials */
+.testimonials {
+    text-align: center;
+    padding: 50px 20px;
+    justify-content: space-between;
+}
+
+.testimonials h2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+    font-weight: lighter;
+}
+
+.testimonials .purple {
+    color: #C271FF;
+    font-weight: bold;
+}
+
+.profiles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 110px;
+}
+
+.profile {
+    max-width: 200px;
+    text-align: center;
+}
+
+.profile img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.profile h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+}
+
+.profile p {
+    font-size: 14px;
+    color: #ccc;
+    line-height: 1.4;
+}
+
+.presenter {
+  background-color: #C271FF;
+  color: white;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 30px;     
+  text-align: left;
+}
+
+.presenter-img img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-left: 80px;
+}
+
+.presenter-txt blockquote {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  font-style: italic;
+}
+
+.presenter-txt h3 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.presenter-txt p {
+  font-size: 14px;
+  font-style: italic;
+}
