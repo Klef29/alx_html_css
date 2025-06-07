@@ -7,7 +7,7 @@
 
 body {
     font-family: 'Segoe UI', sans-serif;
-    color: #fff;
+    color: #a84c4c;
 }
 
 /* Hero Section */
@@ -165,4 +165,127 @@ body {
 .presenter-txt p {
   font-size: 14px;
   font-style: italic;
+}
+
+.tutorials {
+  background: #fff;
+  color: #333;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.tutorials h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+  font-weight: lighter;
+}
+
+.tutorials h2 .purple {
+  color: #C271FF;
+  font-weight: bold;
+}
+
+.tutorials-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 50px;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.tutorials-card {
+    width: 260px; /* or adjust to fit 4 in a row */
+    background-color: white;
+    padding: 1px;
+    text-align: center;
+}
+
+
+.tutorial-card img {
+  width: 100%;
+  border-radius: 0px;
+  margin-bottom: 50px;
+}
+
+.tutorials-card h3 {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 8px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.tutorials-card p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-left: 8px;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.author img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.author h4{
+    color: #C271FF;
+}
+
+.stars i {
+  color: #C271FF;
+  font-size: 14px;
+}
+
+.rating {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.stars {
+  display: flex;
+  gap: 7px; /* spacing between stars */
+  margin-left: 8px;
+}
+
+.duration {
+  font-size: 14px;
+  margin-right: 9px;
+}
+
+.rating p{
+    color: #C271FF;
+}
+
+.tutorial-image {
+  position: relative;
+  width: 100%;
+}
+
+.tutorial-image img:first-child {
+  width: 100%;
+  display: block;
+  border-radius: 8px;
+}
+
+.play-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 50px; /* or any size you prefer */
+  height: 50px;
+  pointer-events: none; /* so it doesn't block clicks if needed */
 }
