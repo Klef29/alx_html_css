@@ -167,6 +167,36 @@
   margin-top: 0.4%;
 }
 
+
+/* Toggle icons */
+#hamburger-toggle {
+  display: none;
+  font-size: 24px;
+  color: white;
+  cursor: pointer;
+  position: absolute;
+  top: 25px;
+  right: 20px;
+  z-index: 1001;
+}
+
+#hamburger-toggle i {
+  display: none;
+}
+
+#hamburger-toggle .fa-bars {
+  display: block;
+}
+
+#hamburger-toggle.show-close .fa-bars {
+  display: none;
+}
+
+#hamburger-toggle.show-close .fa-times {
+  display: block;
+}
+
+
 .cta-btn {
   background-color: var(--primary-color);
   color: white;
@@ -405,62 +435,34 @@
 }
 
 /* Responsive styles */
-@media (max-width: 480px) {
-  .nav {
-    position: relative;
-  }
 
-  .nav ul.nav-links {
+@media (max-width: 480px) {
+  .nav-links {
     display: none;
+    flex-direction: column;
+    background-color: var(--primary-color);
     position: absolute;
     top: 60px;
-    right: 10px;
-    background: #071629;
+    right: 0;
     width: 100%;
-    padding: 20px;
     text-align: center;
-    flex-direction: column;
-    gap: 10px;
+    padding: 20px 0;
+    z-index: 1000;
   }
 
-  .nav ul.nav-links li {
+  .nav-links.active {
+    display: flex; /* ✅ This shows it when .active is added */
+  }
+
+  .nav-links li {
+    margin: 15px 0;
+  }
+
+  #hamburger-toggle {
     display: block;
-    margin: 10px 0;
-  }
-
-  .menu-icon,
-  .close-icon {
-    display: block;
-    position: absolute;
-    top: 20px;
-    right: 20px;
-    font-size: 28px;
-    cursor: pointer;
-    color: white;
-    z-index: 1001;
-  }
-
-  .close-icon {
-    display: none;
-  }
-
-  /* Show menu when checkbox is checked */
-  #menu-toggle:checked ~ .nav-links {
-    display: flex;
-  }
-
-  #menu-toggle:checked ~ .menu-icon {
-    display: none;
-  }
-
-  #menu-toggle:checked ~ .close-icon {
-    display: block;
-  }
-
-  .nav ul.nav-links a {
-    font-size: 1.2rem;
   }
 }
+
 
 @media (max-width: 480px) {
   .hero {

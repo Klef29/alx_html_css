@@ -5,7 +5,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Headphone Site</title>
-  <link rel="stylesheet" href="./7-styles.css" />
+  <link rel="stylesheet" href="./8-styles.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
@@ -19,18 +19,20 @@
   <header class="hero">
     <nav class="nav">
       <div class="logo">
-        <img src="images/logo_headphones.png" alt="Headphones Logo" />
+        <img src="./images/logo_headphones.png" alt="Logo">
       </div>
-      <input type="checkbox" id="menu-toggle" />
-      <label for="menu-toggle" class="menu-icon">&#9776;</label>
-      <!-- ☰ -->
-      <label for="menu-toggle" class="close-icon">&times;</label>
-      <!-- × -->
 
-      <ul class="nav-links">
+      <!-- Hamburger/Close icons -->
+      <div id="hamburger-toggle">
+        <i id="open-icon" class="fas fa-bars"></i>
+        <i id="close-icon" class="fas fa-times"></i>
+      </div>
+
+      <!-- Nav links -->
+      <ul class="nav-links" id="nav-links">
         <li><a href="#what-we-do">what we do</a></li>
         <li><a href="#our-results">our results</a></li>
-        <li><a href="#">contact us</a></li>
+        <li><a href="#contact-form">contact us</a></li>
       </ul>
     </nav>
 
@@ -153,6 +155,7 @@
       <button type="submit" class="cta-btn">CALL TO ACTION</button>
     </form>
   </section>
+  <script src="./8-script.js"></script>
 </body>
 <footer class="footer">
   <div class="footer-left">
